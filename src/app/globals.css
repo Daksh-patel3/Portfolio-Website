@@ -87,10 +87,28 @@
   }
 }
 
-/* Hide Next.js development overlay */
+/* Hide Next.js development overlay and indicators */
 #__next-build-widget,
 [data-nextjs-dialog],
-[data-nextjs-toast] {
+[data-nextjs-toast],
+[data-nextjs-router],
+[data-nextjs-toast-container],
+.__next-dev-overlay,
+.__next-dev-overlay *,
+[data-nextjs-dialog-overlay],
+[data-nextjs-dialog-content],
+iframe[src*="__nextjs"],
+#__next-build-widget,
+.__next-dev-overlay-base {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+/* Hide Next.js dev indicator button */
+body > div[style*="position: fixed"][style*="bottom"],
+body > div[style*="position: fixed"][style*="left"] {
   display: none !important;
 }
 

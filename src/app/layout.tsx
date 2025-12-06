@@ -4,6 +4,7 @@ import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import Navbar from "@/components/layout/Navbar"
 import Footer from "@/components/layout/Footer"
+import NoDevOverlay from "@/components/NoDevOverlay"
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 
@@ -50,6 +51,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <div className="flex min-h-screen flex-col">
+            <NoDevOverlay />
             <Navbar />
             <main className="flex-1">{children}</main>
             <Footer />
