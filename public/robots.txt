@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dakshpatel.dev/sitemap.xml
+
