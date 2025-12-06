@@ -9,6 +9,7 @@ import NoDevOverlay from "@/components/NoDevOverlay"
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://dakshpatel.dev"),
   title: {
     default: "Daksh Patel | Machine Learning Engineer",
     template: "%s | Daksh Patel",
