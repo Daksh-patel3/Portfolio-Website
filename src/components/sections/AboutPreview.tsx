@@ -23,7 +23,7 @@ export default function AboutPreview() {
               <p className="text-lg text-muted-foreground">
                 My journey spans from building scalable ML pipelines processing
                 10M+ records daily to publishing research in IEEE conferences.
-                I'm driven by the challenge of making AI more efficient and
+                I&apos;m driven by the challenge of making AI more efficient and
                 accessible.
               </p>
               <Button asChild variant="outline">

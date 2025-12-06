@@ -42,18 +42,18 @@ export default function AboutPage() {
                 scalability, efficiency, and real-world impact.
               </p>
               <p>
-                Currently, I'm pursuing my MS in Computer Science at UMass
-                Amherst, where I'm focusing on advanced ML techniques,
+                Currently, I&apos;m pursuing my MS in Computer Science at UMass
+                Amherst, where I&apos;m focusing on advanced ML techniques,
                 reinforcement learning, and efficient model architectures. My
                 research in medical imaging has been published in IEEE ASSIC
                 2025, achieving 96.9% accuracy with 40% fewer parameters.
               </p>
               <p>
-                I'm driven by the challenge of making AI more efficient and
+                I&apos;m driven by the challenge of making AI more efficient and
                 accessible, whether through model optimization, production
-                systems, or cutting-edge research. I'm actively seeking Summer
+                systems, or cutting-edge research. I&apos;m actively seeking Summer
                 2026 ML/Data Science internships to continue pushing the
-                boundaries of what's possible.
+                boundaries of what&apos;s possible.
               </p>
             </div>
           </section>

@@ -16,7 +16,7 @@ export default function ContactPage() {
           <div className="text-center space-y-4">
             <h1 className="text-5xl md:text-6xl font-bold">Get In Touch</h1>
             <p className="text-xl text-muted-foreground">
-              Let's connect and discuss opportunities
+              Let&apos;s connect and discuss opportunities
             </p>
           </div>
 

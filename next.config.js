@@ -9,8 +9,7 @@ const nextConfig = {
   },
   // Disable Next.js development indicators
   devIndicators: {
-    buildActivity: false,
-    buildActivityPosition: 'bottom-right',
+    position: 'bottom-right',
   },
 }
 
